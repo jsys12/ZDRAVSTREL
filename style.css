@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.p1 {
+    color: azure;
+    position: relative;
+    top: 20%;
+	font-size: 12px;
+}
+
+.p2 {
+    color: azure;
+    margin: auto;
+}
+
+.owner_div {
+    display: flex;
+    justify-content: center;
+}
+
+.img_gun {
+    max-width: 100%;
+    height: auto;
+}
+
+.p3 {
+    font-size: 78px;
+	font-family: 'Marmelad', sans-serif;
+}
+
+.p3:first-child {
+    margin-bottom: 2px;
+}
+
+.p3:nth-child(2) {
+    margin-top: 2px;
+}
+
+.p4 {
+	color: azure;
+    position: relative;
+    top: 13%;
+	font-family: 'Strong', sans-serif;
+	font-size: 20px;
+	line-height: 0.4;
+}
+
+header {
+    color: aliceblue;
+    position: relative;  
+    padding: 10px 0;
+}
+
+/* Header Styling */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+    color: aliceblue;
+}
+
+/* Logo Styling */
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 31%;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.icon_and_name {
+    font-family: 'Marmelad', sans-serif;
+    font-size: 24px;
+}
+
+.nav-menu {
+    /* display: flex; */
+    gap: 20px;
+    padding-right: 30%;
+    
+}
+
+.btn {
+    color: aliceblue;
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.btn:hover {
+    color: lightgray;
+}
+
+
