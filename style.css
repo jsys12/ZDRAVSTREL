@@ -104,4 +104,29 @@ header {
     color: lightgray;
 }
 
+@media (max-width: 750px){
+    .nav-menu {
+        padding-right: 0px;
+        gap: 20px;
+    }
 
+    .logo {
+        padding-left: 0px;
+    }
+
+    .header-container {
+        padding: 10px 5%;
+    }
+
+    .owner_div {
+        display:block;
+    }
+
+    .p4 {
+        font-size: 16.8px;
+    }
+
+    .p3 {
+        font-size: 60px;
+    }
+}
