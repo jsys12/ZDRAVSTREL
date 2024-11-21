@@ -54,21 +54,20 @@ header {
     padding: 10px 0;
 }
 
-/* Header Styling */
 .header-container {
-    display: flex;
-    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: space-between; */
     align-items: center;
     padding: 10px 20px;
     background-color: black;
     color: aliceblue;
+    z-index: -1;
 }
 
-/* Logo Styling */
 .logo {
     display: flex;
     align-items: center;
-    padding-left: 31%;
+    
 }
 
 .circle {
@@ -79,17 +78,17 @@ header {
     margin-right: 10px;
 }
 
-.icon_and_name {
+.icon_and_name, .nav-menu {
     font-family: 'Marmelad', sans-serif;
     font-size: 24px;
 }
 
-.nav-menu {
-    /* display: flex; */
+/* .nav-menu {
+    display: flex;
     gap: 20px;
     padding-right: 30%;
     
-}
+} */
 
 .btn {
     color: aliceblue;
@@ -104,29 +103,71 @@ header {
     color: lightgray;
 }
 
-@media (max-width: 750px){
-    .nav-menu {
-        padding-right: 0px;
-        gap: 20px;
-    }
+footer{
 
-    .logo {
-        padding-left: 0px;
-    }
+    height: 70px;
+    background-color: #0f0f0f;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 140%;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-align: center;
+    color: #888;
+    font-family: "Roboto";
+}
 
-    .header-container {
-        padding: 10px 5%;
-    }
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-family: 'Marmelad', sans-serif;
+    box-shadow: -2px 0 5px rgba(255, 255, 255, 0.1);
+}
 
-    .owner_div {
-        display:block;
-    }
+.sidebar h3 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: azure;
+}
 
-    .p4 {
-        font-size: 16.8px;
-    }
+.sidebar form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
-    .p3 {
-        font-size: 60px;
-    }
+.sidebar input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #222;
+    color: white;
+    font-family: 'Marmelad', sans-serif;
+}
+
+.sidebar input::placeholder {
+    color: lightgray;
+}
+
+.sidebar button {
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar button:hover {
+    background-color: #555;
 }
